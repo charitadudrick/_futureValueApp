@@ -34,6 +34,13 @@
              return;
             }
 
+            // Check that interest rate is realistic
+            if (rate > 100) {
+            error_message.textContent = "Interest rate must be 100 or less.";
+             document.getElementById("rate").focus();
+            return;
+            }
+
 
 
             // CALCULATION
