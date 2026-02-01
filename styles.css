@@ -197,9 +197,3 @@ hr {
     background-color: #f4f4f4;    /* Light background for the header */
     font-weight: bold;
 }
-
-#error_message {
-  color: red;
-  font-weight: bold;
-  margin-top: 10px;
-}
